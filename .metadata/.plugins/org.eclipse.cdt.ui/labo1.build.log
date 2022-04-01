@@ -1,0 +1,13 @@
+11:12:05 **** Incremental Build of configuration Debug for project labo1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\labo1.o" "..\\src\\labo1.c" 
+..\src\labo1.c: In function 'main':
+..\src\labo1.c:19:5: warning: unused variable 'numeroingresado' [-Wunused-variable]
+ int numeroingresado;
+     ^~~~~~~~~~~~~~~
+gcc -o labo1.exe "src\\labo1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file labo1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+11:12:05 Build Failed. 1 errors, 1 warnings. (took 328ms)
+

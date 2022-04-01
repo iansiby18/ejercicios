@@ -1,0 +1,9 @@
+11:38:31 **** Incremental Build of configuration Debug for project actividades ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\actividades.o" "..\\src\\actividades.c" 
+gcc -o actividades.exe "src\\actividades.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file actividades.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+
+11:38:31 Build Failed. 1 errors, 0 warnings. (took 323ms)
+
